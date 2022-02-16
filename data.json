@@ -1,0 +1,51 @@
+{
+	"about":{
+		"name":"Jason Tee",
+        "title":"Computer Science B.S. @ Boston College",
+        "photo":"./jason.jpg",
+        "email": "jason.tee@bc.edu",
+        "location": "Ignacio Hall",
+        "bio_1": "My name is Jason and I am a senior at Boston college, pursuing a <strong>Bachelor of Science in Computer Science</strong> and a minor in Management & Leadership. I came across your job posting and wanted to speak to you about your Software Engineering role. I believe that throughout my college career I’ve had many opportunities through academic courses and work experiences that would allow me to project success in this position.",
+        "bio_2": "Last summer, I had the opportunity to work as a <strong>Software Developer Intern for IDeaS Revenue Management Solutions,</strong> a subsidiary of SAS Analytics. In collaboration with my team, we built a state-of-the-art revenue management system for one of the largest hotel chains in the United States: Wyndham Garden Hotels. I developed several frontend components for the platform using Angular.js and old-fashioned Javascript and worked closely with the design team to help make user experience and user interface decisions. After implementing many of the designs, I worked with our backend team to update different API endpoints and connect the application to our various microservices. Using SpringBoot, I had the opportunity to create, edit, and delete various endpoints, modifying nearly 10,000+ properties in our database."
+	},
+	"news":[
+		{
+			"title": "TA for Prof. Tassarotti's Programming Languages",
+			"date": "Jan 2022 - Present"
+		},
+        {
+			"title": "Co-President of \"C\"apital Dance Ministry",
+			"date": "May 2020 - Present"
+		},
+        {
+			"title": "Application Developer Intern for IDeaS Revenue Management",
+			"date": "Jun 2021 - Nov 2021"
+		},
+        {
+			"title": "Software Developer Intern for JETSWEAT Fitness",
+			"date": "May 2020 - Jan 2021"
+		},
+        {
+			"title": "Mobile Software Developer Intern for FinX",
+			"date": "May 2020 - Sep 2020"
+		},
+        {
+			"title": "Community Relations Coordinator of BC's Asian Caucus",
+			"date": "Apr 2019 - Apr 2020"
+		}
+	],
+	"projects":[
+		{
+            "title": "AirZzz: A full-stack clone of AirBnb",
+            "img": "./airzzz.png",
+            "tags":["Personal"],
+            "description": "AirZzz is a full-stack single-page web application modeled after the notorious Airbnb. It uses Ruby on Rails as the webframework to handle all API requests, React/Redux to manage frontend state changes, and a PostgreSQL database on the backend. To manage all of the displayed photos, the application links Amazon Web Services."
+		}, 
+        {
+            "title": "SpaceTex: A Javascript typing game",
+            "img": "./spacetex.png",
+            "tags":["Personal"],
+            "description": "SpaceTex is a JavaScript typing game for the math language TeX. With a dynamic space theme, the goal is to destroy as many asteroids, that contain the TeX math symbols, as possible. It was created using pure JavaScript, HTML, and CSS. The animations come from the native requestAnimationFrame method as well as regular HTML DOM manipulation."
+        }
+	]
+}
