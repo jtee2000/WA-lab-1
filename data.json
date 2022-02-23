@@ -36,15 +36,21 @@
 	],
 	"projects":[
 		{
-            "title": "AirZzz: A full-stack clone of AirBnb",
+            "id": 0,
+			"title": "AirZzz: A full-stack clone of AirBnb",
             "img": "./airzzz.png",
             "tags":["Personal"],
+			"link_git": "https://github.com/jtee2000/AirZzz",
+			"link_main": "https://air-zzz.herokuapp.com/#/",
             "description": "AirZzz is a full-stack single-page web application modeled after the notorious Airbnb. It uses Ruby on Rails as the webframework to handle all API requests, React/Redux to manage frontend state changes, and a PostgreSQL database on the backend. To manage all of the displayed photos, the application links Amazon Web Services."
 		}, 
         {
+			"id": 1,
             "title": "SpaceTex: A Javascript typing game",
             "img": "./spacetex.png",
             "tags":["Personal"],
+			"link_git": "https://github.com/jtee2000/spaceTeX.github.io",
+			"link_main": "https://jtee2000.github.io/spaceTeX.github.io/",
             "description": "SpaceTex is a JavaScript typing game for the math language TeX. With a dynamic space theme, the goal is to destroy as many asteroids, that contain the TeX math symbols, as possible. It was created using pure JavaScript, HTML, and CSS. The animations come from the native requestAnimationFrame method as well as regular HTML DOM manipulation."
         }
 	]
